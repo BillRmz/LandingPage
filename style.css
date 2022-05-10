@@ -4,6 +4,8 @@ padding: 0;
 
 }
 
+/* Header */
+
 .header{
      background-color: #1F2937;
     display: flex;
@@ -13,10 +15,17 @@ padding: 0;
     color: #eee;
 }
 
+.logo{
+font-size: 24px;
+font-weight: bold;
+margin-left: 2rem;
+}
+
 .links{
     list-style-type: none;
     display: flex;
     gap: 16px;
+    margin-right: 2.5rem;
 }
 
 .links a{
@@ -31,19 +40,15 @@ padding: 0;
     font-size: 20px;
 }
 
-.logo{
-font-size: 24px;
-font-weight: bold;
-}
 
-
+/* first Section */
 
 .first-section{
     background-color: #1F2937;
     display: flex;
     padding-top: 1rem;
     padding-bottom: 3rem;
- align-items: center;
+    align-items: center;
     justify-content: center;
     
 }
@@ -52,28 +57,25 @@ font-weight: bold;
     margin: 1rem;
     position: relative;
     width: 60%;
-
     display: flex;
     justify-content: center;
 }
 
 .section-right img{
-    width: 600px;
-    height: 300px;
-    padding:12px;
+    width: 37.5rem;
+    height: 18.75rem;
+    padding: 0.75rem;
     
 }
 
 .section-left{
-    margin: 1rem;
+    margin-left: 3rem;
     width: 40%;
-  
     display: flex;
     flex-direction: column; 
     padding: 15px;
     color: #eee;
 }
-
 .section-left h1{
     font-size: 48px;
     font-weight: bolder;
@@ -85,19 +87,69 @@ font-weight: bold;
     padding: 0.7rem;
     margin-bottom: 0.5rem;  
     font-size: 18px;
-    color: #E5E7EB;
+    color: #ccced0;
     
 
 }
 .section-left button{
    width: 8rem;
-   padding: 0.7rem;
+   padding: 0.5rem;
     margin-bottom: 2rem;  
     font-size: 18px;
     background-color:#3882F6;
     color: #eee;
     border-radius: 10px;
     border: none;
+}
+
+
+/* Second Section*/
+
+
+.second-section h2{
+text-align: center;
+margin: 2rem;
+font-size:36px;
+font-weight: bolder;
+color: #1F2937;
+
+}
+
+.cards-container{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
     
 
+}
+.card-content{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: #3882F6 solid 3px;
+}
+
+.card p{
+margin-top: 1rem;    
+width: 180px;
+text-align: center;
+   
 }

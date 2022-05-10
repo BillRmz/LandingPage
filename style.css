@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital,wght@0,100;1,900&display=swap');
+
 *{
 margin: 0;
 padding: 0;
+font-family: 'Outfit', sans-serif;
 
 }
 
@@ -153,3 +156,38 @@ width: 180px;
 text-align: center;
    
 }
+
+/* Third Section */
+
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    
+}
+
+.third-section div{
+    width: 800px;
+    font-size: 36px;
+  font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.sign{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 20rem;
+  
+  
+   
+}
+
+/* Fourth Section */

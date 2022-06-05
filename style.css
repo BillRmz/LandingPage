@@ -342,4 +342,8 @@ a{
         flex-direction: column;
         padding: 1rem;
     }
+
+    .texto-principal{
+        margin: 0;
+    }
 }
